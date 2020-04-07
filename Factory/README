@@ -1,0 +1,16 @@
+We use the analogy of a millitary training academy
+
+We have an abstract class Barrack which is the Factory. CavalryBar,
+ArtilleryBar and NavyBar inherit from Barrack and therefore override
+the createSoldier(int) method in Barrack which is abstract according to
+their own needs. 
+
+CavalryBar overrides createSoldier(int) to return Cavalry men
+ArtilleryBar overrides createSoldier(int) to return Artillery men
+NavyBar overrides createSoldier(int) to return Navy men
+All of these classes return the soldiers objects of Soldier so as
+to allow programming to an interface rather than an implementation
+
+Soldier super class is also abstract with the abstract method as fight()
+Three classes inherit from the Soldier class - Cavalry, Artillery, Navy.
+These classes override the fight() function as per their needs. 

@@ -1,0 +1,29 @@
+We try to model a planet named Electromeda using the Composite design pattern.
+
+We define a habitable interface which is a component interface. The leafs are
+individual states which shall be within a country. Each country resides within
+a Continent.
+
+
+The diagram show below represents the structure that the pattern has been used to create.
+----------------------------------------------------------------------------------------
+
+
+		ELECTROMEDA
+		     |
+		     |
+     	  ----------------------
+	 |			|
+	 |			|
+     CONTINENT 1	    CONTINENT 2
+     	 |			|
+    -------------           ----------------
+   |             |	   |		    |	
+  COUNTRY1   COUNTRY2     COUNTRY3        COUNTRY4
+     |            |	       |		|	
+  ---------      ------       ---------       ---------
+ |         |     |    |      |         |     |         |
+STATE1    STATE2 |    |     STATE5     |    STATE7   STATE8
+		 |   STATE4            |
+		 |		     STATE6
+	       STATE3

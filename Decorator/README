@@ -1,0 +1,10 @@
+Here we take the example of a military system. There are two basic types of
+soldiers. These are Mercenary, Recruit. The cost of a Mercenary is twice that
+of a Recruit. Additionally, we can train each of these in Cavalry, Artillery
+and Naval warfare. Each time we do so the cost of training the soldier increases.
+Also the ways in which he can fight increase.
+
+DOUBT: If I train a Recruit as Cavalry, Artillery, Navy, it seems i can access
+       the methods of the navy class. Though the cost increases due to the
+       recursive pattern, I cant access the skills acquired previously, like
+       fire, ride etc. I can only access sail. How do I do that ??

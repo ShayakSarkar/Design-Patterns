@@ -1,0 +1,6 @@
+A singleton class is the one which enforces creation of one and only one object 
+of its kind. This is built into the logic of the class with the help of a static 
+variable. This variable is initially set to null. But on the creation of a object
+of this class, this static varible is set to that object's reference. Any 
+subsequent attempts at instantiating the class returns this same object's refernce
+again and again, thereby enforcing creation of only one object of that class.
